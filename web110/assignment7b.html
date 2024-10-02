@@ -7,22 +7,119 @@
 </head>
 <body>
   <h1>Assignment 7b</h1>
-  <ol>
-    <li>Review the https://en.wikiversity.org/wiki/Database_Examples/Northwind database. Answer the following questions based on the information found on the database wiki pages. Do not use a database application. Database applications will be used in future lessons.</li>
-    <li>What fields are contained in the Categories table? CatagoryID, CatagoryName, Description</li>
-    <li>What is the primary key for the Customers table? CustomerID</li>
-    <li>How are the Orders table and the OrderDetails table related? Foreign-key Primary--key</li>
-    <li>List the CustomerName for all customers in the country Italy. Franchi S.p.A., Magazzini Alimentari Riuniti, Reggiani Caseifici </li>
-    <li>List the ProductName for all products in Category 1 with a price less than $5.00.</li>
-    <li>List the SupplierName for all suppliers from English-speaking countries (Australia, Canada, UK, USA)</li>
-    <li>List the first and last names of all employees having a birthday in September.</li>
-    <li>List the CustomerName and OrderID for all orders placed on 9 September 1996.</li>
-    <li>List the ProductName for all seafood products with a supplier from Boston.</li>
-    <li>List the CustomerName and OrderID for all customers who ordered Aniseed Syrup, sorted in alphabetical order.</li>
-    <li>List the ProductName, Quantity, Price, and ExtendedPrice (Quantity * Price) for orders 10344 and 10345.</li>
-    <li>List the first and last names and current age of all employees having a birthday in September.</li>
-    <li>List the OrderID, count of products ordered, and total order cost for orders 10344 and 10345.</li>
-    <li>List the total number of orders and total cost of orders shipped by Speedy Express in February 1997.</li>
-</ol>
+  <ul>
+    <li>What fields are contained in the Categories table?
+        <ul>
+            <li>CategoryID</li>
+            <li>CategoryName</li>
+            <li>Description</li>
+        </ul>
+    </li>
+    <li>What is the primary key for the Customers table?
+        <ul>
+            <li>CustomerID</li>
+        </ul>
+    </li>
+    <li>How are the Orders table and the OrderDetails table related?
+        <ul>
+            <li>Foreign Key - Primary Key</li>
+        </ul>
+    </li>
+    <li>List the CustomerName for all customers in the country 'Italy'.
+        <ul>
+            <li>Franchi S.p.A.</li>
+            <li>Magazzini Alimentari Riuniti</li>
+            <li>Reggiani Caseifici</li>
+        </ul>
+    </li>
+    <li>List the ProductName for all products in Category 1 with a price less than $5.00.
+        <ul>
+            <li>Guaraná Fantástica</li>
+        </ul>
+    </li>
+    <li>List the SupplierName for all suppliers from English-speaking countries (Australia, Canada, UK, USA).
+        <ul>
+            <li>Exotic Liquid</li>
+            <li>Specialty Biscuits, Ltd</li>
+            <li>New Orleans Cajun Delights</li>
+            <li>Grandma Kelly's Homestead</li>
+            <li>Bigfoot Breweries</li>
+            <li>G'day, Mate</li>
+            <li>Pavlova, Ltd.</li>
+            <li>Ma Maison</li>
+            <li>Forêts d'érables</li>
+            <li>New England Seafood Cannery</li>
+        </ul>
+    </li>
+    <li>List the first and last names of all employees having a birthday in September.
+        <ul>
+            <li>Adam West</li>
+            <li>Margaret Peacock</li>
+        </ul>
+    </li>
+    <li>List the CustomerName and OrderID for all orders placed on 9 September 1996.
+        <ul>
+            <li>Magazzini Alimentari Riuniti - 10300</li>
+            <li>Die Wandernde Kuh - 10301</li>
+        </ul>
+    </li>
+    <li>List the ProductName for all seafood products with a supplier from 'Boston'.
+        <ul>
+            <li>Boston Crab Meat</li>
+        </ul>
+    </li>
+    <li>List the CustomerName and OrderID for all customers who ordered 'Aniseed Syrup', sorted in alphabetical order.
+        <ul>
+            <li>B's Beverages, 10289</li>
+            <li>LINO-Delicateses, 10405</li>
+        </ul>
+    </li>
+    <li>List the ProductName, Quantity, Price, and ExtendedPrice (Quantity * Price) for orders 10344 and 10345.
+        <ul>
+            <li>Order 10344:
+                <ul>
+                    <li>ProductName: Chef Anton's Cajun Seasoning, Quantity: 35, Price: 22.00, ExtendedPrice: 770</li>
+                    <li>ProductName: Northwoods Cranberry Sauce, Quantity: 70, Price: 40.00, ExtendedPrice: 2800</li>
+                    <li>Total Price: 3570</li>
+                </ul>
+            </li>
+            <li>Order 10345:
+                <ul>
+                    <li>ProductName: Northwoods Cranberry Sauce, Quantity: 70, Price: 40.00, ExtendedPrice: 2800</li>
+                    <li>ProductName: Teatime Chocolate Biscuits, Quantity: 80, Price: 9.20, ExtendedPrice: 736</li>
+                    <li>ProductName: Singaporean Hokkien Fried Mee, Quantity: 9, Price: 14.00, ExtendedPrice: 126</li>
+                    <li>Total Price: 3662</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>List the first and last names and current age of all employees having a birthday in September.
+        <ul>
+            <li>FirstName: Margaret, LastName: Peacock, Age: 65</li>
+            <li>FirstName: Adam, LastName: West, Age: 95</li>
+        </ul>
+    </li>
+    <li>List the OrderID, count of products ordered, and total order cost for orders 10344 and 10345.
+        <ul>
+            <li>OrderID: 10344, ProductsOrdered: 105, TotalCost: 3570</li>
+            <li>OrderID: 10345, ProductsOrdered: 159, TotalCost: 3662</li>
+        </ul>
+    </li>
+    <li>List the total number of orders and total cost of orders shipped by 'Speedy Express' in February 1997.
+        <ul>
+            <li>Total Number of Orders: 2</li>
+            <li>Order num: 10437, ProductID: 53, Price: 32.80, Quantity: 15, Combined Order Cost: 1165.20</li>
+            <li>Order num: 10443, ProductID: 11, Price: 21.00, Quantity: 6, Combined Order Cost: 673.20</li>
+            <li>Order num: 10443, ProductID: 28, Price: 45.60, Quantity: 12, Combined Order Cost: 547.20</li>
+        </ul>
+    </li>
+    <li>Summary:
+        <ul>
+            <li>I learned how to compare tables by using their primary and foreign keys. By doing this, I also learned the importance of queries because doing this work manually is difficult and time-consuming. It helped to create a plan by determining which tables I would need and which fields I would need to record. I can apply this method to future projects to help connect data in a more intuitive way. This skill enhances my ability to manage databases effectively. It's a valuable asset for optimizing data organization and retrieval in real-world scenarios, making me better equipped for my Computer Support degree.</li>
+        </ul>
+    </li>
+</ul>
+
+
   </body>
 </html>
